@@ -12,13 +12,13 @@ public abstract class Pizza {
 	}
 	
 	public void makeTheDoe() {
-		System.out.println("Make the pizza doe");
+		System.out.println("Make the pizza dough");
 	}
 	public void letTheDoeRest() {
-		System.out.println("Let the pizza doe to rest");
+		System.out.println("Let the pizza dough to rest");
 	}
 	public void stretchIt() {
-		System.out.println("Stretch the doe");
+		System.out.println("Stretch the dough");
 	} 	
 	//subclasses should define how this works 
 	public abstract void addTheFilling();
@@ -29,3 +29,6 @@ public abstract class Pizza {
 	//subclasses should define how this works 
 	public abstract void takeItFromOven();
 }
+
+
+
